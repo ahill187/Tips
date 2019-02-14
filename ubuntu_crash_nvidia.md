@@ -12,10 +12,10 @@ Solution:
 6. In shell:
 
 `
-$ sudo apt-get purge nvidia-* \n
-$ sudo add-apt-repository ppa:graphics-drivers/ppa
-$ sudo apt-get update
-$ sudo apt-get install nvidia-340
+$ sudo apt-get purge nvidia-*  
+$ sudo add-apt-repository ppa:graphics-drivers/ppa  
+$ sudo apt-get update  
+$ sudo apt-get install nvidia-340  
 `
 (Also tried sudo apt-get install --reinstall xserver-xorg-video-intel xserver-xorg-core
 sudo dpkg-reconfigure xserver-xorg)
