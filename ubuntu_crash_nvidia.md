@@ -12,7 +12,7 @@ Solution:
 6. In shell:
 
 `
-$ sudo apt-get purge nvidia-*
+$ sudo apt-get purge nvidia-* \br
 $ sudo add-apt-repository ppa:graphics-drivers/ppa
 $ sudo apt-get update
 $ sudo apt-get install nvidia-340
