@@ -17,5 +17,9 @@ $ sudo add-apt-repository ppa:graphics-drivers/ppa
 $ sudo apt-get update  
 $ sudo apt-get install nvidia-340  
 ```
-(Also tried sudo apt-get install --reinstall xserver-xorg-video-intel xserver-xorg-core
-sudo dpkg-reconfigure xserver-xorg)
+Other things I tried (not sure if they worked):
+```
+$ sudo apt-get install --reinstall xserver-xorg-video-intel xserver-xorg-core  
+$ sudo dpkg-reconfigure xserver-xorg
+```
+
