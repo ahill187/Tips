@@ -8,5 +8,7 @@ Build -> Build Artifacts
 
 From UNIX bash:
 
+```
 $ cd {Your project directory}/out/artifacts/{Your project name}_jar/
 $ java -jar {Your_project_name}.jar
+```
