@@ -12,5 +12,15 @@ $ unzip [name].zip [name_of_file]
 
 # Copy between Users
 
-User
+User1 -> User2
+
+```
+su - User1
+```
+
+Enter password for User1
+
+```
+sudo cp /.../[User1]/.../[filename] /.../[User2]/.../[filename]
+```
 
