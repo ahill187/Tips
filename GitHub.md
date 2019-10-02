@@ -15,7 +15,7 @@ git checkout pull_42
 
 New branch
 ```
-git branch -b {BRANCH_NAME}
+git checkout -b {BRANCH_NAME}
 ```
 
 Delete branch
