@@ -14,3 +14,18 @@ git checkout pull_42
 ## Branches
 
 New branch
+```
+git branch -b {BRANCH_NAME}
+```
+
+Delete branch
+
+```
+git branch -D {BRANCH_NAME}
+```
+
+Switch branches
+
+```
+git checkout {BRANCH_NAME}
+```
