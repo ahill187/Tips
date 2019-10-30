@@ -11,6 +11,18 @@ git fetch origin pull/42/head:pull_42
 git checkout pull_42
 ```
 
+## Checkout a Specific Commit
+
+```
+git checkout {ABBREV_COMMIT}
+```
+
+e.g.
+
+```
+git checkout 9ce920d
+```
+
 ## Branches
 
 New branch
