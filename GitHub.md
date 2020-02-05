@@ -41,3 +41,24 @@ Switch branches
 ```
 git checkout {BRANCH_NAME}
 ```
+
+## Setup Git Command Line Mac OSx
+
+1. When prompted, install Command Line Tools
+2. Generate a token under Settings -> Developer Settings -> Personal Access Tokens
+3. When prompted for a password:
+```
+user name : ahill187
+password: your_token
+```
+
+4. Configure user name and email:
+```
+git config --global user.name "ahill187"
+git config --global user.email "ainsleighhill@gmail.com"
+```
+5. Edit `.gitconfig` file:
+```
+cd 
+atom .gitconfig
+```
