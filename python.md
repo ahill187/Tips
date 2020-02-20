@@ -11,19 +11,30 @@ PATH="/usr/local/bin/python:${PATH}"
 export PATH
 ```
 
-## Python 2
+## Python 2 or 3
 
 ```sh
 brew install python
 ```
 ```sh
 pip install virtualenv
-virtualenv myenv
-source myenv/bin/activate
+virtualenv your_env
+source your_env/bin/activate
 ```
 ### Jupyter
 
 ```
-pip install ipykernel
-ipython kernel install --user --name=projectname
+(your_env) $ pip3 install jupyter jupyterlab
+(your_env) $ pip3 install ipykernel
+(your_env) $ ipython kernel install --user --name=your_env
+```
+
+```
+(your_env) $ jupyter notebook
+```
+
+OR
+
+```
+(your_env) $ jupyter lab
 ```
