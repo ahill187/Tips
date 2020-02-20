@@ -11,7 +11,7 @@ PATH="/usr/local/bin/python:${PATH}"
 export PATH
 ```
 
-## Python 2 or 3
+## Python 2
 
 ```sh
 brew install python
@@ -21,6 +21,14 @@ pip install virtualenv
 virtualenv your_env
 source your_env/bin/activate
 ```
+
+## Python 3
+
+```sh
+python3 -m venv your_env
+source your_env/bin/activate
+```
+
 ### Jupyter
 
 ```
